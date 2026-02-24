@@ -33,7 +33,7 @@ VPN_MESSAGE = """
 def build_vpn_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text="Happ", url="https://www.happ.su/main/ru")]
+            [InlineKeyboardButton(text="Happ (рекомендуется)", url="https://www.happ.su/main/ru")]
         ]
     )
 
